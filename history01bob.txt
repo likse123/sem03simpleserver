@@ -1,0 +1,27 @@
+    1  apt-get update
+    2  apt-get install -y tcpdump
+    3  apt-get install -y iproute2
+    4  apt-get install -y git
+    5  apt-get install -y golang
+    6  apt-get install -y nano
+    7  df -k
+    8  git clone https://github.com/likse123/sem03simpleserver.git
+    9  ls
+   10  ip addr show
+   11  ping
+   12  apt-get install -y ping
+   13  apt-get install -y inetutils-ping
+   14  ping 172.17.0.2
+   15  cd sem03simpleserver/
+   16  ls
+   17  nano tcp_server.go 
+   18  go run tcp_server.go 
+   19  nano tcp_server.go 
+   20  go run tcp_server.go 
+   21  nano tcp_server.go 
+   22  go run tcp_server.go 
+   23  tcpdump --version
+   24  history
+   25  go run tcp_server.go 
+   26  hisory >> history01bob.txt
+   27  history >> history01bob.txt
